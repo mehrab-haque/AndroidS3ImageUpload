@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_auth_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background='@drawable/toast_background'
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="এই নম্বরে আগে থেকেই একটি অ্যাকাউন্ট আছে। অন্য ফোন নম্বর ব্যবহার কর।"
+        android:textColor="@color/skyBlue"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:id="@+id/toast_auth_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
